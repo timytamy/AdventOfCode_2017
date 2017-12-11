@@ -44,7 +44,7 @@ def solve(spreadsheet):
                     checksum += row[i]/row[j]
                     continue
 
-    return(checksum)
+    return(int(checksum))
 
 
 if __name__ == '__main__':
